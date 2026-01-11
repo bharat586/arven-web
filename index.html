@@ -3,20 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arven Brand | Official</title>
+    <title>ARVEN | Essence of Luxury</title>
     <style>
-        body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f4f4; padding: 50px; }
-        .card { background: white; padding: 30px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); max-width: 500px; margin: auto; }
-        h1 { color: #333; }
-        p { color: #666; }
-        .btn { display: inline-block; padding: 10px 20px; background: #007bff; color: white; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        /* Silver & Emerald Green Theme (Lucky for 6 & 5) */
+        body { font-family: 'Garamond', serif; background-color: #012622; color: #E0E0E0; }
+        
+        nav { padding: 30px; text-align: center; background: rgba(0,0,0,0.8); border-bottom: 1px solid #C0C0C0; letter-spacing: 8px; }
+        nav h1 { font-size: 2.5rem; color: #C0C0C0; /* Silver Text */ }
+
+        .hero { 
+            height: 80vh; 
+            background: linear-gradient(rgba(1, 38, 34, 0.7), rgba(1, 38, 34, 0.7)), 
+                        url('https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); 
+            background-size: cover; background-position: center; 
+            display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+        }
+        .hero h2 { font-size: 3.5rem; color: #fff; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
+        .hero p { font-size: 1.3rem; color: #C0C0C0; margin: 20px 0; font-style: italic; }
+
+        .btn { 
+            padding: 15px 40px; border: 2px solid #C0C0C0; color: #fff; 
+            text-decoration: none; font-weight: bold; letter-spacing: 2px; transition: 0.4s;
+            background: rgba(192, 192, 192, 0.1);
+        }
+        .btn:hover { background: #C0C0C0; color: #012622; }
+
+        .about { padding: 80px 20px; text-align: center; background: #fff; color: #012622; }
+        .about h3 { font-size: 2rem; margin-bottom: 20px; letter-spacing: 2px; }
+        
+        footer { padding: 40px; text-align: center; font-size: 0.9rem; color: #C0C0C0; background: #000; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Welcome to Arven Brand 🚀</h1>
-        <p>Aapki premium service yahan shuru hoti hai. Hum jald hi naye features lekar aa rahe hain!</p>
-        <a href="#" class="btn">Learn More</a>
+
+    <nav>
+        <h1>ARVEN</h1>
+    </nav>
+
+    <div class="hero">
+        <h2>Aromatic Excellence</h2>
+        <p>Crafted for Success. Defined by Elegance.</p>
+        <a href="https://wa.me/YOURNUMBER" class="btn">WHATSAPP TO ORDER</a>
     </div>
+
+    <div class="about">
+        <h3>THE SIGNATURE COLLECTION</h3>
+        <p style="max-width: 700px; margin: 0 auto; line-height: 1.8;">
+            Arven is more than just a perfume; it's a statement. 
+            Designed for those who lead with confidence and charm. 
+            Experience the harmony of nature's finest scents.
+        </p>
+    </div>
+
+    <footer>
+        <p>ARVEN LUXURY FRAGRANCES</p>
+        <p style="margin-top: 10px; color: #C0C0C0;">Contact: +91 [Aapka Number]</p>
+        <p style="margin-top: 25px;">&copy; 2026 ARVEN. All Rights Reserved.</p>
+    </footer>
+
 </body>
 </html>
